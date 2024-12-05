@@ -33,11 +33,7 @@ const HeaderMenu = () => {
           <Link href="/dashboard" className="flex">
             <Folder className="mr-2 h-4 w-4" /><span>Projects</span>
           </Link></DropdownMenuItem>
-        <DropdownMenuItem asChild>
-          <Link href="/payments" className="flex">
-            <CreditCard className="mr-2 h-4 w-4" /><span>Billing</span>
-          </Link>
-        </DropdownMenuItem>
+        
       </DropdownMenuContent>
     </DropdownMenu>
   )
