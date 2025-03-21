@@ -57,10 +57,10 @@ export async function POST(req: Request) {
     if (url) {
       return new Response(JSON.stringify({ url }), { status: 200 });
     } else {
-      return new Response(JSON.stringify({ error: "Failed to create a portal" }), { status: 500 });
+      return new Response(JSON.stringify({ error: "Failed to create a portal 1" }), { status: 500 });
     }
   } catch (error) {
     console.error(error);
-    return new Response(JSON.stringify({ error: "Failed to create a portal" }), { status: 500 });
+    return new Response(JSON.stringify({ error: "Failed to create a portal 2" }), { status: 500 });
   }
 }
